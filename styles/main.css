@@ -2,6 +2,69 @@ body{
     background-color: snow;
 }
 
+.topnav{
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    height: 61px;
+    background-color: #161616;
+    width: 100%;
+    text-align: center;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.topnav ul li {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    float:left;
+}
+
+.topnav ul li a{
+    color: snow;
+    text-align: center;
+    padding: 10px 12px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover{
+    background-color: azure;
+    color: midnightblue;
+}
+
+.topnav a.active{
+    background-color: darkslategray;
+    color: snow;
+}
+
+.rowheight{
+    height: 675px;
+    padding-top: 60px;
+}
+
 .mainTitle{
     text-align: center;
+    background-color: gainsboro;
+    font-family: 'Lobster';
+}
+
+.mainTitle h1{
+    font-size: 5vw;
+    font-style: italic;
+}
+
+.middle{
+    margin: auto;
+}
+
+.intro{
+    font-family: 'Roboto';
 }
